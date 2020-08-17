@@ -34,6 +34,11 @@
   --animation-duration: 300ms;
 }
 
+/* Universal tags */
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Open Sans", sans-serif;
   margin: 0;
@@ -304,45 +309,27 @@ p {
   padding: 20px;
 }
 
-<<<<<<< HEAD
-/* Work */
-=======
 /*Work*/
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
 
 .work__categories {
   margin: 40px;
 }
 
-<<<<<<< HEAD
-.categories__btn {
-=======
 .category__btn {
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
   border: 1px solid var(--color-dark-white);
   border-radius: var(--size-border-radius);
   font-size: var(--font-regular);
   padding: 8px 48px;
 }
 
-<<<<<<< HEAD
-.categories__btn.active,
-.categories__btn:hover {
-=======
 .category__btn.active,
 .category__btn:hover {
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
   background-color: var(--color-pink);
   color: var(--color-white);
 }
 
-<<<<<<< HEAD
-.categories__btn.active .category__count,
-.categories__btn:hover .category__count {
-=======
 .category__btn.category__btn.active .category__count,
 .category__btn:hover .category__count {
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
   opacity: 1;
   top: 0;
 }
@@ -355,19 +342,11 @@ p {
   height: 24px;
   line-height: 24px;
   display: inline-block;
-<<<<<<< HEAD
-  /* span은 content를 꽉끼게 만들어줘서 동그라미가 안 예뻐져서 */
-=======
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
   position: relative;
   top: -20px;
   left: 4px;
   opacity: 0;
-<<<<<<< HEAD
-  transition: all var(--animation-duration) ease-in;
-=======
   transition: all var(--animation-duration);
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
 }
 
 .work__projects {
@@ -377,12 +356,6 @@ p {
 }
 
 .project {
-<<<<<<< HEAD
-  width: 280px;
-  height: 250px;
-  margin: 2px;
-  background-color: orange;
-=======
   position: relative;
   display: flex;
   justify-content: center;
@@ -391,7 +364,6 @@ p {
   height: 250px;
   margin: 2px;
   background-color: var(--color-light-white);
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
 }
 
 .project__img {
@@ -401,11 +373,6 @@ p {
 
 .project__description {
   position: absolute;
-<<<<<<< HEAD
-  top: 0;
-  left: 0;
-}
-=======
   background-color: black;
   display: flex;
   flex-direction: column;
@@ -541,9 +508,9 @@ p {
   .project {
     flex-grow: 1;
   }
+
   .testimonial__avatar {
     width: 80px;
     height: 80px;
   }
 }
->>>>>>> c600c3c84e371b8fd219c742b7c3bee9f19fd7f2
