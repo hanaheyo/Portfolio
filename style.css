@@ -153,6 +153,18 @@ p {
   padding: 40px;
   padding-top: 120px;
   text-align: center;
+  opacity: 1;
+  transition: 0.7s opacity;
+}
+
+.home--fade--middle {
+  opacity: 0.5;
+  transition: none;
+}
+
+.home--fade--top {
+  opacity: 0.2;
+  transition: none;
 }
 
 .home__avartar {
