@@ -361,7 +361,6 @@ p {
   position: relative;
   display: flex;
   justify-content: center;
-  align-items: center;
   width: 250px;
   height: 250px;
   margin: 2px;
