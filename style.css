@@ -157,15 +157,6 @@ p {
   transition: 0.7s opacity;
 }
 
-.home--fade--middle {
-  opacity: 0.5;
-  transition: none;
-}
-
-.home--fade--top {
-  opacity: 0.2;
-  transition: none;
-}
 
 .home__avartar {
   width: 250px;
@@ -486,6 +477,27 @@ p {
 .contact__links i:hover {
   transform: scale(1.1);
   color: var(--color-yellow);
+}
+
+/* Scroll */
+.arrow {
+  position: fixed;
+  width: 70px;
+  height: 70px;
+  bottom: 50px;
+  right: 50px;
+  background-color: var(--color-pink);
+  border-radius: 50%;
+  font-size: 50px;
+  color: var(--color-white);
+  opacity: 0;
+  transition: opacity 300ms ease-in;
+  pointer-events: none;
+}
+
+.arrow.visible {
+  opacity: 1;
+  pointer-events: auto;
 }
 
 /* For below 768px screen width */
