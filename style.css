@@ -368,6 +368,11 @@ p {
   height: 250px;
   margin: 2px;
   background-color: var(--color-light-white);
+  transition: transform 300ms ease-in-out;
+}
+
+.project.invisible {
+  display: none;
 }
 
 .project__img {
@@ -495,7 +500,7 @@ p {
   pointer-events: none;
 }
 
-.arrow.visible {
+.arrow.arrow--visible {
   opacity: 1;
   pointer-events: auto;
 }
