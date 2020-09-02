@@ -60,13 +60,17 @@ workBtnContainer.addEventListener("click", (e) => {
   if (filter == null) {
     return; //만약의 경우라도
   }
-  projects.forEach((project) => {
-    if (filter === "*" || filter === project.dataset.type) {
-      project.classList.remove("invisible");
-    } else {
-      project.classList.add("invisible");
-    }
-  });
+  projectContainer.classList.add("anim-out");
+  setTimeout(() => {
+    projects.forEach((project) => {
+      if (filter === "*" || filter === project.dataset.type) {
+        project.classList.remove("invisible");
+      } else {
+        project.classList.add("invisible");
+      }
+    });
+    projectContainer.classList.remove("anim-out");
+  }, 300);
 });
 
 function scrollIntoView(selector) {
