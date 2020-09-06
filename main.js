@@ -47,9 +47,9 @@ document.addEventListener("scroll", () => {
 const arrow = document.querySelector(".arrow");
 document.addEventListener("scroll", () => {
   if (window.scrollY > homeHeight / 2) {
-    arrow.classList.add("visible");
+    arrow.classList.add("arrow--visible");
   } else {
-    arrow.classList.remove("visible");
+    arrow.classList.remove("arrow--visible");
   }
 });
 
