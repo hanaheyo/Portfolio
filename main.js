@@ -19,7 +19,7 @@ navbarMenu.addEventListener("click", (event) => {
   if (link == null) {
     return; //end function execution
   }
-  navbarMenu.classList.remove('navbar__menu--visible');
+  navbarMenu.classList.remove("navbar__menu--visible");
   scrollIntoView(link);
 });
 
@@ -68,7 +68,7 @@ workBtnContainer.addEventListener("click", (e) => {
     return; //만약의 경우라도
   }
 
-  // Remove section from the previous item and select the new one
+  // Remove selected class from the previous item and add it to the new one
   const active = document.querySelector(".category__btn.selected");
   active.classList.remove("selected");
   const target =
