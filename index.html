@@ -4,7 +4,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Hana's Portfolio</title>
+  <title>Sang-A | Publisher & Front-end Developer</title>
   <!-- meta information -->
   <meta name="description" content="Portfolio for world-renowned software engineer Hana" />
   <meta name="author" content="Hana" />
@@ -25,14 +25,13 @@
   <nav id="navbar">
     <div class="navbar__logo">
       <i class="fab fa-diaspora"></i>
-      <a href="#">Hana</a>
+      <a href="#">Sang-A</a>
     </div>
     <ul class="navbar__menu">
       <li class="navbar__menu__item" data-link="#home">Home</li>
       <li class="navbar__menu__item" data-link="#about">About</li>
       <li class="navbar__menu__item" data-link="#skills">Skills</li>
       <li class="navbar__menu__item" data-link="#work">My work</li>
-      <li class="navbar__menu__item" data-link="#testimonials">Testimonial</li>
       <li class="navbar__menu__item" data-link="#contact">Contact</li>
     </ul>
 
@@ -43,16 +42,21 @@
   </nav>
 
   <!-- Home -->
-  <div id="home">
-    <div class="home__container">
-      <img src="./imgs/profile.jpg" alt="Hana's profile photo" class="home__avartar" />
-      <h1 class="home__title">Publisher & Front-end Developer</h1>
-      <h2 class="home__description">
-         with Curiosity
-      </h2>
-      <button class="home__contact" data-link="#contact">Contact me</button>
-    </div>
-  </div>
+  <section id="home">
+      <div class="home__left">
+      </div>
+      <div class="home__right">
+        <h1 class="home__title">CREATOR
+          <span class="home__title--lowercase">full of</span>
+          CURIOSITY
+        </h1>
+        <img class="home__icon" src="./imgs/favicon.png"></img>
+        <h2 class="home__description">
+           Publisher & Front-end Developer
+        </h2>
+        <button class="home__contact" data-link="#contact">Contact me</button>
+      </div>
+  </section>
 
   <!-- about -->
   <section id="about" class="section section__container">
@@ -124,99 +128,6 @@
     </div>
   </section>
 
-  <!-- skills -->
-  <section id="skills" class="section">
-    <div class="section__container">
-      <h1>Skills</h1>
-      <h2>Skills & Attributes</h2>
-      <p>
-        Experienced with all phases of the software life-cycle. Passsion for
-        learning new technologies. Capable of working within a team
-        environment and independently. Ability to plan and time schedule, work
-        under strict pressure and adapt quickly when needed.
-      </p>
-      <div class="skillset" class="section">
-        <div class="skillset__left">
-          <h3 class="skillset__title">Skills</h3>
-          <div class="skill">
-            <div class="skill__description">
-              <span>HTML</span>
-              <span>99%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 99%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>CSS</span>
-              <span>90%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 90%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>JAVASCRIPT</span>
-              <span>90%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 90%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>TYPESCRIPT</span>
-              <span>80%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 80%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>REACT</span>
-              <span>88%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 88%;"></div>
-            </div>
-          </div>
-          <div class="skill">
-            <div class="skill__description">
-              <span>NODEJS</span>
-              <span>77%</span>
-            </div>
-            <div class="skill__bar">
-              <div class="skill__value" style="width: 77%;"></div>
-            </div>
-          </div>
-        </div>
-        <div class="skillset__right">
-          <div class="tools">
-            <ul class="tools__list">
-              <h3 class="skillset__title">Tools</h3>
-              <li><span>Visual Studio Code</span></li>
-              <li><span>IntelliJ</span></li>
-              <li><span>Android Studio Code</span></li>
-              <li><span>iOS deveopment tools</span></li>
-              <li><span>Sketch app</span></li>
-            </ul>
-          </div>
-          <div class="etc">
-            <h3 class="skillset__title">Etc</h3>
-            <ul class="etc__list">
-              <li><span>Git</span></li>
-              <li><span>Scrum master</span></li>
-              <li><span>Math</span></li>
-            </ul>
-          </div>
-        </div>
-      </div>
-    </div>
-  </section>
-
   <!-- work -->
   <section id="work" class="section section__container">
     <h1>My work</h1>
@@ -224,120 +135,70 @@
     <div class="work__categories">
       <button class="category__btn selected" data-filter="*">
         All
-        <span class="category__count">8</span>
+        <span class="category__count">6</span>
       </button>
-      <button class="category__btn" data-filter="front-end">
-        Front-end
-        <span class="category__count ">3</span>
+      <button class="category__btn" data-filter="Web Sites">
+        Web Sites
+        <span class="category__count ">2</span>
       </button>
-      <button class="category__btn" data-filter="back-end">
-        Back-end
-        <span class="category__count">3</span>
+      <button class="category__btn" data-filter="Web App">
+        Web App
+        <span class="category__count">2</span>
       </button>
-      <button class="category__btn" data-filter="mobile">
-        Mobile
+      <button class="category__btn" data-filter="Game&Extension">
+        Game&Extension
         <span class="category__count">2</span>
       </button>
     </div>
     <div class="work__projects">
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="front-end">
+      <a href="#"
+        class="project" data-type="Web Sites">
         <img class="project__img" src="./imgs/projects/1.png" alt="litte forest 1" />
         <div class="project__description">
-          <h3>Youtube Site</h3>
+          <h3>Portfolio Site</h3>
+          <span>HTML, CSS with media query, <br>and JavaScript</span>
+        </div>
+      </a>
+      <a href=""
+        class="project" target="blank" data-type="Game&Extension">
+        <img class="project__img" src="./imgs/projects/2.png" alt="litte forest 2" />
+        <div class="project__description">
+          <h3>Carrot Game</h3>
+          <span>HTML, CSS, JavaScript</span>
+        </div>
+      </a>
+      <a href=""
+        class="project" target="blank" data-type="Web App">
+        <img class="project__img" src="./imgs/projects/3.png" alt="litte forest 3" />
+        <div class="project__description">
+          <h3>Youtube Mobile clone coding</h3>
+          <span>HTML, CSS with media query,<br>and JavaScript</span></span>
+        </div>
+      </a>
+      <a href=""
+        class="project" target="blank" data-type="Web Sites">
+        <img class="project__img" src="./imgs/projects/4.png" alt="litte forest 4" />
+        <div class="project__description">
+          <h3>Business Site</h3>
           <span>Clone coding with HTML, CSS</span>
         </div>
       </a>
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="front-end">
-        <img class="project__img" src="./imgs/projects/2.png" alt="litte forest 2" />
-        <div class="project__description">
-          <h3>Responsive Navbar</h3>
-          <span>HTML, CSS with media query</span>
-        </div>
-      </a>
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="front-end">
-        <img class="project__img" src="./imgs/projects/3.png" alt="litte forest 3" />
-        <div class="project__description">
-          <h3>Shopping mall game</h3>
-          <span>HTML, CSS, JavaScript, Json</span>
-        </div>
-      </a>
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="back-end">
-        <img class="project__img" src="./imgs/projects/4.png" alt="litte forest 4" />
-        <div class="project__description">
-          <h3>Project</h3>
-          <span>Explanation</span>
-        </div>
-      </a>
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="back-end">
+      <a href=""
+        class="project" target="blank" data-type="Game&Extension">
         <img class="project__img" src="./imgs/projects/5.png" alt="litte forest 5" />
         <div class="project__description">
-          <h3>Project</h3>
-          <span>Explanation</span>
+          <h3>News Filter Extensions</h3>
+          <span>HTML, CSS, JavaScript, <br>and Json</span>
         </div>
       </a>
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="back-end">
+      <a href=""
+        class="project" target="blank" data-type="Web App">
         <img class="project__img" src="./imgs/projects/6.png" alt="litte forest 6" />
         <div class="project__description">
-          <h3>Project</h3>
-          <span>Explanation</span>
+          <h3>Shopping List Application</h3>
+          <span>HTML, CSS, JavaScript</span>
         </div>
       </a>
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="mobile">
-        <img class="project__img" src="./imgs/projects/7.png" alt="litte forest 1" />
-        <div class="project__description">
-          <h3>Project</h3>
-          <span>Explanation</span>
-        </div>
-      </a>
-      <a href="https://www.google.com/search?q=%EB%A6%AC%ED%8B%80%ED%8F%AC%EB%A0%88%EC%8A%A4%ED%8A%B8+%ED%8F%AC%EC%8A%A4%ED%84%B0&source=lnms&tbm=isch&sa=X&ved=2ahUKEwj2wP2LgYPrAhWENKYKHcB6BREQ_AUoAXoECA0QAw&biw=1536&bih=722"
-        class="project" target="blank" data-type="mobile">
-        <img class="project__img" src="./imgs/projects/8.png" alt="litte forest 2" />
-        <div class="project__description">
-          <h3>Project</h3>
-          <span>Explanation</span>
-        </div>
-      </a>
-    </div>
-  </section>
-
-  <!-- testimonials -->
-  <section id="testimonials" class="section">
-    <div class="section__container">
-      <h1>Testimonials</h1>
-      <h3>See what they say about me</h3>
-      <div class="testimonials">
-        <div class="testimonial">
-          <img src="./imgs/testimonial/people1.jpg" alt="People" class="testimonial__avatar" />
-          <div class="testimonial__speech-bubble">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-              ipsum natus dolorem sunt commodi reprehenderit iusto excepturi
-              incidunt necessitatibus id ipsam, illum repudiandae voluptates
-              laudantium exercitationem. Laudantium asperiores dolorum autem.
-            </p>
-            <p class="name"><a href="">James</a> / Kakao</p>
-          </div>
-        </div>
-        <div class="testimonial">
-          <div class="testimonial__speech-bubble">
-            <p>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas
-              ipsum natus dolorem sunt commodi reprehenderit iusto excepturi
-              incidunt necessitatibus id ipsam, illum repudiandae voluptates
-              laudantium exercitationem. Laudantium asperiores dolorum autem.
-            </p>
-            <p class="name"><a href="">James</a> / Kakao</p>
-          </div>
-          <img src="./imgs/testimonial/people1.jpg" alt="People" class="testimonial__avatar" />
-        </div>
-      </div>
     </div>
   </section>
 

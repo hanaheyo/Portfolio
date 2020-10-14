@@ -2,12 +2,19 @@
 
 // Mark navber transparent when it is on the top
 const navbar = document.querySelector("#navbar");
+const menuItem = document.querySelectorAll(".navbar__menu__item");
 const navbarHeight = navbar.getBoundingClientRect().height;
 document.addEventListener("scroll", () => {
   if (window.scrollY > navbarHeight) {
-    navbar.classList.add("navbar--dark");
+    navbar.classList.add("navbar--dark-green");
+    for(let item of menuItem) {
+      item.classList.add("menuItem--white");
+    }
   } else {
-    navbar.classList.remove("navbar--dark");
+    navbar.classList.remove("navbar--dark-green");
+    for(let item of menuItem) {
+      item.classList.remove("menuItem--white");
+    }
   }
 });
 
@@ -38,9 +45,9 @@ contactButton.addEventListener("click", () => {
 // Make home slowly fade to transparent as the window scrolls down
 const home = document.querySelector("#home");
 const homeHeight = home.getBoundingClientRect().height;
-const home__container = document.querySelector(".home__container");
+const home__right = document.querySelector(".home__right");
 document.addEventListener("scroll", () => {
-  home__container.style.opacity = 1 - window.scrollY / homeHeight;
+  home__right.style.opacity = 1 - window.scrollY / homeHeight;
 });
 
 // Show "arrow" button when scrolling down
