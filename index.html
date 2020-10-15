@@ -14,6 +14,7 @@
   <script src="https://kit.fontawesome.com/73b133f9f0.js" crossorigin="anonymous"></script>
   <!-- google font -->
   <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet" />
+  <link href="https://fonts.googleapis.com/css2?family=Do+Hyeon&display=swap" rel="stylesheet">
   <!-- css -->
   <link rel="stylesheet" href="style.css" />
   <!-- JavaScript -->
@@ -29,8 +30,8 @@
     </div>
     <ul class="navbar__menu">
       <li class="navbar__menu__item" data-link="#home">Home</li>
-      <li class="navbar__menu__item" data-link="#about">About</li>
-      <li class="navbar__menu__item" data-link="#skills">Skills</li>
+      <li class="navbar__menu__item" data-link="#about">About me</li>
+      <li class="navbar__menu__item" data-link="#skill">Skills</li>
       <li class="navbar__menu__item" data-link="#work">My work</li>
       <li class="navbar__menu__item" data-link="#contact">Contact</li>
     </ul>
@@ -46,159 +47,208 @@
       <div class="home__left">
       </div>
       <div class="home__right">
-        <h1 class="home__title">CREATOR
-          <span class="home__title--lowercase">full of</span>
-          CURIOSITY
-        </h1>
-        <img class="home__icon" src="./imgs/favicon.png"></img>
-        <h2 class="home__description">
-           Publisher & Front-end Developer
-        </h2>
-        <button class="home__contact" data-link="#contact">Contact me</button>
-      </div>
+        <div class="home__right--container">
+          <h1 class="home__title">CREATOR
+            <span class="home__title--lowercase">full of</span>
+            CURIOSITY
+          </h1>
+          <img class="home__icon" src="./imgs/favicon.png"></img>
+          <h2 class="home__description">
+             Publisher & Front-end Developer
+          </h2>
+          <button class="home__contact" data-link="#contact">Contact me</button>
+        </div>
+        </div>
   </section>
 
-  <!-- about -->
-  <section id="about" class="section section__container">
-    <h1>About me</h1>
-    <p>
-      Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nam
-      voluptatibus suscipit vero voluptates quod quas numquam consequuntur
-      ullam accusantium repellendus, eligendi odio illo ex in consectetur.
-      Officiis, tenetur consequatur.
-    </p>
-    <div class="about__majors">
-      <div class="major">
-        <div class="major__icon">
-          <i class="fab fa-html5"></i>
+  <!-- About -->
+  <section id="about" class="section">
+    <div class="about__container section__container">
+      <h1 class="about__title">3C about Me</h1>
+      <p class="about__sub-title">
+        Communicate well with coworkers, keep study by curiosity, and be colorful through exeriences.
+      </p>
+      <div class="about__strengths">
+        <div class="strength">
+          <div class="strength__img--container">
+            <img src="./imgs/about/Communication.png" alt="Communication" class="strength__img">
+            <div class="strength__description">
+              <h3>"협력을 이끌어내는 사람"</h3>
+              <span>팀장으로서 팀을 이끌어 <br> 해커톤에서 대상을 수상했습니다.</span>
+            </div>
+          </div>
+          <a href="https://www.notion.so/651b29a9065e47e991b6b0079c28ea3f" target="blank" class="strength__btn">Communication</a>
         </div>
-        <h2 class="major__title">
-          HTML
-        </h2>
-        <div class="major__description">
-          I'm very good at HTML
+        <div class="strength">
+          <div class="strength__img--container">
+            <img src="./imgs/about/Curiosity.png" alt="Curiosity" class="strength__img">
+            <div class="strength__description">
+              <h3>"호기심을 갖고 공부하는 사람"</h3>
+              <span>새로운 기술들을 <br>나만의 노트에  정리해 공부합니다.</span>
+            </div>
+          </div>
+          <a href="https://www.notion.so/Front-end-Wiki-9d4bd6dc402d4463ad13530a03858d36" target="blank" class="strength__btn">Curiosity</a>
         </div>
-      </div>
-      <div class="major">
-        <div class="major__icon">
-          <i class="fab fa-css3-alt"></i>
-        </div>
-        <h2 class="major__title">
-          CSS
-        </h2>
-        <div class="major__description">
-          I'm very good at CSS
-        </div>
-      </div>
-      <div class="major">
-        <div class="major__icon">
-          <i class="fab fa-js"></i>
-        </div>
-        <h2 class="major__title">
-          JavaScript
-        </h2>
-        <div class="major__description">
-          I'm very good at JavaScript
+        <div class="strength">
+          <div class="strength__img--container">
+            <img src="./imgs/about/Colorful.png" alt="Colorful" class="strength__img">
+            <div class="strength__description">
+              <h3>"인생을 색칠하는 사람"</h3>
+              <span>세계를 곳곳을 탐험하며 <br> 삶에 색깔을 입혀 나갑니다.</span>
+            </div>
+          </div>
+          <a href="https://www.notion.so/d584abd441d24923aac598a02ce0f82e" target="blank" class="strength__btn">Colorful</a>
         </div>
       </div>
     </div>
-    <div class="about__academies">
-      <div class="acadamy">
-        <img src="./imgs/GAA_logo.png" alt="Gwangju AI Academy" class="academy__logo" />
-        <div class="academy_description">
-          <p class="academy__name">
-            Gwangju AI Academy
-          </p>
-          <p class="academy__period">
-            2020 May - 2020 Nov
-          </p>
+  </section>
+
+  <!-- Skills -->
+  <section id="skill" class="section">
+    <div class="skill__container section__container">
+      <h1>Skills</h1>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatum nam
+        voluptatibus suscipit vero voluptates quod quas numquam consequuntur
+        ullam accusantium repellendus, eligendi odio illo ex in consectetur.
+        Officiis, tenetur consequatur.
+      </p>
+      <div class="skill__majors">
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-html5"></i>
+          </div>
+          <h2 class="major__title">
+            HTML
+          </h2>
+          <div class="major__description">
+            I'm very good at HTML
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-css3-alt"></i>
+          </div>
+          <h2 class="major__title">
+            CSS
+          </h2>
+          <div class="major__description">
+            I'm very good at CSS
+          </div>
+        </div>
+        <div class="major">
+          <div class="major__icon">
+            <i class="fab fa-js"></i>
+          </div>
+          <h2 class="major__title">
+            JavaScript
+          </h2>
+          <div class="major__description">
+            I'm very good at JavaScript
+          </div>
         </div>
       </div>
-      <div class="acadamy">
-        <img src="./imgs/GAA_logo.png" alt="Gwangju AI Academy" class="academy__logo" />
-        <div class="academy_description">
-          <p class="academy__name">
-            Gwangju AI Academy
-          </p>
-          <p class="academy__period">
-            2020 May - 2020 Nov
-          </p>
+      <div class="skill__academies">
+        <div class="acadamy">
+          <img src="./imgs/ewha logo.png" alt="Ewha Womans University" class="academy__logo" />
+          <div class="academy_description">
+            <p class="academy__name">
+              Ewha Womans University
+            </p>
+            <p class="academy__period">
+              2015.03 - 2020.08
+            </p>
+          </div>
         </div>
-      </div>
+        <div class="acadamy">
+          <img src="./imgs/GAA_logo.png" alt="Gwangju AI Academy" class="academy__logo" />
+          <div class="academy_description">
+            <p class="academy__name">
+              Gwangju AI Academy
+            </p>
+            <p class="academy__period">
+              2020.7 ~
+            </p>
+          </div>
+        </div>
+    </div>
+
     </div>
   </section>
 
   <!-- work -->
-  <section id="work" class="section section__container">
-    <h1>My work</h1>
-    <h3>Projects</h3>
-    <div class="work__categories">
-      <button class="category__btn selected" data-filter="*">
-        All
-        <span class="category__count">6</span>
-      </button>
-      <button class="category__btn" data-filter="Web Sites">
-        Web Sites
-        <span class="category__count ">2</span>
-      </button>
-      <button class="category__btn" data-filter="Web App">
-        Web App
-        <span class="category__count">2</span>
-      </button>
-      <button class="category__btn" data-filter="Game&Extension">
-        Game&Extension
-        <span class="category__count">2</span>
-      </button>
-    </div>
-    <div class="work__projects">
-      <a href="#"
-        class="project" data-type="Web Sites">
-        <img class="project__img" src="./imgs/projects/1.png" alt="litte forest 1" />
-        <div class="project__description">
-          <h3>Portfolio Site</h3>
-          <span>HTML, CSS with media query, <br>and JavaScript</span>
-        </div>
-      </a>
-      <a href="https://github.com/hanaheyo/Browser/tree/main/Carrot_Game"
-        class="project" target="blank" data-type="Game&Extension">
-        <img class="project__img" src="./imgs/projects/2.png" alt="litte forest 2" />
-        <div class="project__description">
-          <h3>Carrot Game</h3>
-          <span>HTML, CSS, JavaScript</span>
-        </div>
-      </a>
-      <a href="https://github.com/hanaheyo/Youtube_mobile"
-        class="project" target="blank" data-type="Web App">
-        <img class="project__img" src="./imgs/projects/3.png" alt="litte forest 3" />
-        <div class="project__description">
-          <h3>Youtube Mobile clone coding</h3>
-          <span>HTML, CSS with media query,<br>and JavaScript</span></span>
-        </div>
-      </a>
-      <a href="https://github.com/hanaheyo/Business"
-        class="project" target="blank" data-type="Web Sites">
-        <img class="project__img" src="./imgs/projects/4.png" alt="litte forest 4" />
-        <div class="project__description">
-          <h3>Business Site</h3>
-          <span>Clone coding with HTML, CSS</span>
-        </div>
-      </a>
-      <a href="https://github.com/hanaheyo/CustomizedNewsFilter/tree/master/News_Filter"
-        class="project" target="blank" data-type="Game&Extension">
-        <img class="project__img" src="./imgs/projects/5.png" alt="litte forest 5" />
-        <div class="project__description">
-          <h3>News Filter Extensions</h3>
-          <span>HTML, CSS, JavaScript, <br>and Json</span>
-        </div>
-      </a>
-      <a href="https://github.com/hanaheyo/Browser/tree/main/Shopping_list_application"
-        class="project" target="blank" data-type="Web App">
-        <img class="project__img" src="./imgs/projects/6.png" alt="litte forest 6" />
-        <div class="project__description">
-          <h3>Shopping List Application</h3>
-          <span>HTML, CSS, JavaScript</span>
-        </div>
-      </a>
+  <section id="work">
+    <div class="work__container section section__container">
+      <h1 class="work__title">My work</h1>
+      <h3 class="work__sub-title">Projects</h3>
+      <div class="work__categories">
+        <button class="category__btn selected" data-filter="*">
+          All
+          <span class="category__count">6</span>
+        </button>
+        <button class="category__btn" data-filter="Web Sites">
+          Web Sites
+          <span class="category__count ">2</span>
+        </button>
+        <button class="category__btn" data-filter="Web App">
+          Web App
+          <span class="category__count">2</span>
+        </button>
+        <button class="category__btn" data-filter="Game&Extension">
+          Game&Extension
+          <span class="category__count">2</span>
+        </button>
+      </div>
+      <div class="work__projects">
+        <a href="#"
+          class="project" data-type="Web Sites">
+          <img class="project__img" src="./imgs/projects/1.png" alt="litte forest 1" />
+          <div class="project__description">
+            <h3>Portfolio Site</h3>
+            <span>HTML, CSS with media query, <br>and JavaScript</span>
+          </div>
+        </a>
+        <a href="https://github.com/hanaheyo/Browser/tree/main/Carrot_Game"
+          class="project" target="blank" data-type="Game&Extension">
+          <img class="project__img" src="./imgs/projects/2.png" alt="litte forest 2" />
+          <div class="project__description">
+            <h3>Carrot Game</h3>
+            <span>HTML, CSS, JavaScript</span>
+          </div>
+        </a>
+        <a href="https://github.com/hanaheyo/Youtube_mobile"
+          class="project" target="blank" data-type="Web App">
+          <img class="project__img" src="./imgs/projects/3.png" alt="litte forest 3" />
+          <div class="project__description">
+            <h3>Youtube Mobile clone coding</h3>
+            <span>HTML, CSS with media query,<br>and JavaScript</span></span>
+          </div>
+        </a>
+        <a href="https://github.com/hanaheyo/Business"
+          class="project" target="blank" data-type="Web Sites">
+          <img class="project__img" src="./imgs/projects/4.png" alt="litte forest 4" />
+          <div class="project__description">
+            <h3>Business Site</h3>
+            <span>Clone coding with HTML, CSS</span>
+          </div>
+        </a>
+        <a href="https://github.com/hanaheyo/CustomizedNewsFilter/tree/master/News_Filter"
+          class="project" target="blank" data-type="Game&Extension">
+          <img class="project__img" src="./imgs/projects/5.png" alt="litte forest 5" />
+          <div class="project__description">
+            <h3>News Filter Extensions</h3>
+            <span>HTML, CSS, JavaScript, <br>and Json</span>
+          </div>
+        </a>
+        <a href="https://github.com/hanaheyo/Browser/tree/main/Shopping_list_application"
+          class="project" target="blank" data-type="Web App">
+          <img class="project__img" src="./imgs/projects/6.png" alt="litte forest 6" />
+          <div class="project__description">
+            <h3>Shopping List Application</h3>
+            <span>HTML, CSS, JavaScript</span>
+          </div>
+        </a>
+      </div>
     </div>
   </section>
 
@@ -210,12 +260,9 @@
       <a href="https://github.com/hanaheyo" target="blank">
         <i class="fab fa-github"></i>
       </a>
-      <a href="https://www.linkedin.com/" target="blank">
-        <i class="fab fa-linkedin"></i>
-      </a>
     </div>
     <p class="contact__rights">
-      2020 Hanaheyo - All rights reserved
+      2020 Sang-A - All rights reserved
     </p>
   </section>
 
