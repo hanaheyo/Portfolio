@@ -151,7 +151,7 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color-pink);
-  box-shadow: 2px 2px 6px 0px rgba(148,145,148,1);
+  box-shadow: 2px 2px 4px 0px rgba(148,145,148,1);
 }
 
 .navbar__menu__item.menuItem--white {
