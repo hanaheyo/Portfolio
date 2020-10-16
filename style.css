@@ -321,10 +321,6 @@ p {
 
 
 /* Skills */
-#skill {
-  /* background-color: var(--color-oatmeal); */
-}
-
 .skill__majors {
   display: flex;
   justify-content: space-between;
@@ -460,6 +456,7 @@ p {
   margin: 2px;
   background-color: var(--color-pink);
   transition: transform 300ms ease-in-out;
+  overflow: hidden;
 }
 
 .project.invisible {
@@ -467,8 +464,9 @@ p {
 }
 
 .project__img {
-  max-width: 100%;
-  max-height: 100%;
+  display: block;
+  height: 70%;
+  transform: translateY(25%);
 }
 
 .project__description {
@@ -535,7 +533,7 @@ p {
 
 .contact__links i:hover {
   transform: scale(1.1);
-  color: var(--color-green);
+  transition: all 100ms ease-in;
 }
 
 /* Scroll */
