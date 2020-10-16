@@ -9,11 +9,13 @@ document.addEventListener("scroll", () => {
     navbar.classList.add("navbar--dark-green");
     for(let item of menuItem) {
       item.classList.add("menuItem--white");
+      item.classList.add("menuItem--borderNone");
     }
   } else {
     navbar.classList.remove("navbar--dark-green");
     for(let item of menuItem) {
       item.classList.remove("menuItem--white");
+      item.classList.remove("menuItem--borderNone");
     }
   }
 });
