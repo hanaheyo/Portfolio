@@ -151,7 +151,7 @@ p {
 
 .navbar__menu__item:hover {
   background-color: var(--color-pink);
-  box-shadow: 2px 2px 4px 0px rgba(148,145,148,1);
+  box-shadow: 2px 2px 6px 0px rgba(148,145,148,1);
 }
 
 .navbar__menu__item.menuItem--white {
@@ -273,7 +273,7 @@ p {
   top: 0;
   left: 0;
   opacity: 0;
-  transform: translateY(8px);
+  transform: translateY(px);
   transition: all var(--animation-duration) ease-in;
 }
 
@@ -390,7 +390,7 @@ p {
 
 /*Work*/
 #work {
-  background-color: var(--color-pink);
+  background-color: var(--color-green);
 }
 
 .work__title,
@@ -413,7 +413,7 @@ p {
 
 .category__btn.selected,
 .category__btn:hover {
-  background-color: var(--color-green);
+  background-color: var(--color-pink);
   color: var(--color-black);
 }
 
@@ -458,7 +458,7 @@ p {
   width: 280px;
   height: 280px;
   margin: 2px;
-  background-color: var(--color-green);
+  background-color: var(--color-pink);
   transition: transform 300ms ease-in-out;
 }
 
@@ -510,17 +510,17 @@ p {
 
 /* Contact */
 #contact {
-  background-color: var(--color-oatmeal);
+  background-color: var(--color-pink);
 }
 
 .contact__title,
 .contact__email {
-  color: var(--color-green);
+  color: var(--color-white);
 }
 
 .contact__rights {
   font-size: var(--font-micro);
-  color: var(--color-dark-gray);
+  color: var(--color-white);
 }
 
 .contact__title {
@@ -533,13 +533,9 @@ p {
   transition: all var(--animation-duration) ease-in;
 }
 
-.contact__links i {
-  color: var(--color-green);
-}
-
 .contact__links i:hover {
   transform: scale(1.1);
-  color: var(--color-pink);
+  color: var(--color-green);
 }
 
 /* Scroll */
@@ -578,14 +574,10 @@ p {
     padding-top: 50px;
   }
 
-  .navbar__toggle-btn {
-    display: block;
-  }
-
   #navbar {
     flex-direction: column;
     align-items: flex-start;
-    background-color: var(--color-pink);
+    background-color: var(--color-green);
   }
 
   #navbar.navbar--dark-green {
@@ -599,11 +591,16 @@ p {
     display: none;
   }
 
+  .navbar__menu__item {
+    color: var(--color-white);
+  }
+
   .navbar__menu--visible {
     display: block;
   }
 
   .navbar__toggle-btn {
+    display: block;
     position: fixed;
     top: 17px;
     right: 17px;
@@ -625,6 +622,11 @@ p {
 
   .home__title {
     font-size: var(--font-large);
+  }
+
+  .about__strengths {
+    display: flex;
+    flex-direction: column;
   }
 
   .skill__majors {
