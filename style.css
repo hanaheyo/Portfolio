@@ -463,10 +463,14 @@ p {
   display: none;
 }
 
-.project__img {
-  display: block;
+.project__img--horizontal {
   height: 70%;
   transform: translateY(25%);
+}
+
+.project__img--vertical {
+  height: 90%;
+  transform: translateY(5%);
 }
 
 .project__description {
