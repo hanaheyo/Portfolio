@@ -234,12 +234,12 @@ p {
 
 /* About */
 #about {
-  background-color: var(--color-green);
+  background-color: #ffeafb;
 }
 
 .about__title,
 .about__sub-title {
-  color: var(--color-white);
+  /* color: var(--color-white); */
 }
 
 .about__strengths {
@@ -304,7 +304,7 @@ p {
 }
 
 .strength__btn {
-  background-color: var(--color-oatmeal);
+  background-color: var(--color-pink);
   width: 350px;
   font-size: var(--font-regular);
   font-weight: var(--weight-bold);
